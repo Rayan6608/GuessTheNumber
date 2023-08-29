@@ -1,7 +1,9 @@
 import random, pyfiglet, os
 
+#---Only for the clean name---#
 os.system("cls")
 print(pyfiglet.figlet_format("GuessTheNum"))
+#-----------------------------#
 
 num = random.randint(1,10)
 
